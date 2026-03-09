@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Formaxion | Educación aplicada</title>
+<title>Formaxion</title>
 
 <style>
 
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background:#f4f4f4;
+background:#f5f5f5;
 color:#333;
+line-height:1.6;
 }
 
 header{
 background:#0f172a;
 color:white;
-padding:60px 20px;
+padding:80px 20px;
 text-align:center;
 }
 
 header h1{
-font-size:48px;
+font-size:50px;
 margin-bottom:10px;
 }
 
 header p{
-font-size:20px;
-max-width:700px;
+max-width:800px;
 margin:auto;
+font-size:20px;
+}
+
+nav{
+background:white;
+padding:15px;
+text-align:center;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#0f172a;
+font-weight:bold;
 }
 
 section{
-padding:60px 20px;
 max-width:1000px;
 margin:auto;
+padding:60px 20px;
 }
 
 h2{
 color:#0f172a;
+margin-bottom:20px;
 }
 
 .cards{
@@ -53,36 +70,33 @@ gap:20px;
 background:white;
 padding:25px;
 border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 flex:1;
-min-width:250px;
+min-width:260px;
 }
 
-.cta{
+.highlight{
+background:#e0f2fe;
+padding:30px;
+border-radius:10px;
+}
+
+.contact{
 background:#0f172a;
 color:white;
 text-align:center;
 padding:60px 20px;
 }
 
-button{
-background:#2563eb;
-color:white;
-border:none;
-padding:15px 25px;
-font-size:16px;
-border-radius:6px;
-cursor:pointer;
-}
-
 footer{
 background:#111;
 color:#aaa;
 text-align:center;
-padding:30px;
+padding:25px;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -92,47 +106,132 @@ padding:30px;
 <h1>FORMAXION</h1>
 
 <p>
-Educación aplicada y trayectos formativos diseñados para transformar conocimiento en acción.
+El puente entre experiencia e innovación.
+Transformamos el talento con la experiencia humana de Formaxion y la potencia tecnológica de aiforma.
 </p>
 
 </header>
 
+<nav>
+
+<a href="#quienes">Quiénes somos</a>
+<a href="#servicios">Servicios</a>
+<a href="#metodologia">Metodología</a>
+<a href="#aiforma">aiforma</a>
+<a href="#contacto">Contacto</a>
+
+</nav>
+
 <section>
+
+<h2>Propuesta de valor</h2>
+
+<p>
+Somos una consultora especializada en el diseño de experiencias educativas y de formación laboral alineadas a los desafíos actuales de las organizaciones.
+Integramos metodologías pedagógicas, conocimiento del mercado laboral y tecnología educativa para crear trayectos formativos efectivos, medibles y escalables.
+</p>
+
+</section>
+
+<section id="quienes">
 
 <h2>Quiénes somos</h2>
 
 <p>
-En Formaxion diseñamos experiencias de aprendizaje que conectan el potencial humano con los objetivos de las organizaciones. Nuestro enfoque se basa en trayectos formativos personalizados que transforman el conocimiento en impacto real.
+Formaxion es una consultora formada por profesionales con amplia experiencia en proyectos educativos y de formación laboral en el sector público y privado.
+</p>
+
+<p>
+Nos especializamos en el diseño de modelos de formación que conectan la educación con las necesidades reales del mercado de trabajo, integrando innovación pedagógica, tecnología educativa y conocimiento sectorial.
 </p>
 
 </section>
 
-<section>
+<section id="servicios">
 
-<h2>Qué hacemos</h2>
+<h2>Servicios de consultoría</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Diagnóstico de habilidades</h3>
+<h3>Diagnóstico de necesidades</h3>
 <p>
-Identificamos las brechas de competencia dentro de equipos y organizaciones.
+Análisis de brechas de habilidades y competencias en relación con el mercado laboral y los objetivos de la organización.
 </p>
 </div>
 
 <div class="card">
-<h3>Trayectos formativos</h3>
+<h3>Diseño de programas formativos</h3>
 <p>
-Diseñamos rutas de aprendizaje personalizadas según objetivos estratégicos.
+Creación de planes de estudio presenciales, virtuales o híbridos adaptados a cada contexto.
 </p>
 </div>
 
 <div class="card">
-<h3>Impacto medible</h3>
+<h3>Desarrollo de contenidos educativos</h3>
 <p>
-Evaluamos el impacto real de la formación en el desempeño laboral.
+Producción de materiales pedagógicos, manuales, videos y recursos para plataformas de e-learning.
 </p>
 </div>
+
+<div class="card">
+<h3>Evaluación de impacto</h3>
+<p>
+Seguimiento del progreso formativo y medición de resultados para optimizar los programas implementados.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="metodologia">
+
+<h2>Metodología de trabajo</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>1. Diagnóstico</h3>
+<p>Identificamos brechas de competencias y oportunidades de mejora.</p>
+</div>
+
+<div class="card">
+<h3>2. Diseño pedagógico</h3>
+<p>Creamos trayectos formativos adaptados a la realidad de cada organización.</p>
+</div>
+
+<div class="card">
+<h3>3. Implementación</h3>
+<p>Trabajamos con expertos del sector y metodologías activas de aprendizaje.</p>
+</div>
+
+<div class="card">
+<h3>4. Evaluación</h3>
+<p>Medimos resultados y optimizamos continuamente los programas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="aiforma">
+
+<h2>aiforma</h2>
+
+<div class="highlight">
+
+<p>
+La evolución inteligente de la capacitación.
+</p>
+
+<p>
+Combinamos la metodología de consultoría de Formaxion con inteligencia artificial para crear un modelo de autoformación que entiende las necesidades reales del puesto de trabajo.
+</p>
+
+<p>
+La tecnología permite escalar el aprendizaje sin perder personalización, adaptando contenidos y trayectos según el perfil y progreso de cada usuario.
+</p>
 
 </div>
 
@@ -140,24 +239,33 @@ Evaluamos el impacto real de la formación en el desempeño laboral.
 
 <section>
 
-<h2>Programa destacado</h2>
+<h2>Áreas de especialización</h2>
 
-<p>
-Programa de Profesionalización en Gestión del Hogar.  
-Una iniciativa para transformar el servicio doméstico en una profesión certificada mediante alianzas entre instituciones educativas, gobiernos locales y Formaxion.
-</p>
+<ul>
+<li>Informática y tecnología</li>
+<li>Ingeniería y producción</li>
+<li>Salud</li>
+<li>Energía</li>
+<li>Turismo</li>
+</ul>
 
 </section>
 
-<section class="cta">
+<section id="contacto" class="contact">
 
-<h2>Trabajemos juntos</h2>
+<h2>Contacto</h2>
 
 <p>
-Diseñamos programas de formación para empresas, gobiernos y organizaciones.
+¿Querés transformar la formación en tu organización?
 </p>
 
-<button>Contactar</button>
+<p>
+Podemos ayudarte a diseñar programas educativos, trayectos de capacitación o implementar soluciones de autoformación con inteligencia artificial.
+</p>
+
+<p>
+📩 formaxion.ar@gmail.com
+</p>
 
 </section>
 
@@ -168,4 +276,5 @@ Diseñamos programas de formación para empresas, gobiernos y organizaciones.
 </footer>
 
 </body>
+
 </html>
